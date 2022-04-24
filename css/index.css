@@ -219,3 +219,42 @@
   width: 200px;
   height: 200px;
 }
+.image{
+  display: flex;
+  margin-top: 10%;
+}
+.fifth{
+  background: #ccc;
+}
+.bg-text{
+  background-color: #ff6433;
+  width: 300px;
+  height: 300px;
+  top: 3659px;
+  left: 318px;
+}
+.bg-text h1{
+  margin-top: 40%;
+  color: white;
+  margin-left: 15px;
+}
+.bg-text button{
+  background: black;
+  color: white;
+  border-radius: 7px ;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.numbers{
+  margin-left: 20%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.final h1{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 30%;
+}
