@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: 0, auto;
+}
+.flex{
+  display: flex;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+}
+.right-section ul{
+  list-style: none;
+  display: flex;
+}
+.read-assistance{
+  display: flex;
+  padding-left: 20px;
+}
+.right-section ul li{
+  margin-right: 20px;
+}
+.right-section ul li a{
+  text-decoration: none;
+  color: black;
+}
+.icon img{
+  background: rgb(111, 224, 111);
+  border-radius: 30px;
+  padding: 10px;
+}
+.right-section .navigation{
+  border-right: 2px solid #ccc;
+}
+.read-assistance .icon{
+  margin-right: 10px;
+}
+/* second part */
+#hero-section .text-section, #hero-section .image-section{
+  width: 50%;
+}
+#hero-section .image-section{
+  background-image: url(/img/image.png);
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+  width: 40%;
+}
+#hero-section, #quote-section{
+  padding: 80px 0;
+}
+.text-section button, .left-section button, .lorems button{
+  color: white;
+  background-color: #ff6433;
+  border-radius: 12px;
+  padding: 16px 40px;
+  font-size: 15px;
+  margin-left: 10%;
+  display: inline-block;
+}
+.text-section h1{
+  font-size: 64px;
+}
+.text-section{
+  width: 60%;
+}
+.time-section{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.text-section .image-box{
+  width: 5%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-section .time-text{
+  width: 95%;
+}
+.hero-section .image-section{
+  width: 40%;
+}
+.text-section h1{
+  font-size: 64px;
+  margin-left: 10%;
+}
+.time-section{
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+.text-section .image-box{
+  width:10%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time-section img{
+  width: 100%;
+}
+.color{
+  color: #939191;
+}
+#quote-section{
+  background: lightgray ;
+}
+#quote-section .left-section, #quote-section .next-section{
+  width: 45%;
+}
+
+#quote-section .left-section .image-text , .third-design .left-section .image-text{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.left-section, .the-tests, .lorems{
+  margin-left: 10%;
+}
+.image-text .tests{
+  margin-left: 10%;
+}
+.left-section .quote1 .tests{
+  margin: 20px;
+}
+#quote-section .left-section input{
+  width: 100%;
+  padding: 10px;
+}
+.quote1 img{
+  background:white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.image-text{
+  display: flex;
+}
+.left-section a{
+  text-decoration: none;
+  color: black;
+}
+/* third part */
+.third-design{
+  margin-top: 10%;
+}
+.image-design{
+  background: rgba(102, 28, 231, 1);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.lorems{
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.lorems h1{
+  margin-bottom: 10%;
+  font-size: 24px;
+}
+.lorems button{
+  margin-top: 10%;
+  margin-left: -20px;
+  margin-bottom: 20px ;
+}
+/* fourth part */
+.fourth{
+  padding: 10px;
+  width: 100%;
+}
+.fourth-design{
+  background: #ccc;
+}
+.learn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20% ;
+}
+.fourth p{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.other-section, .fourth p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.other-section{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.items-flex{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-flex .items {
+  display: flex;
+  flex-flow: row;
+  margin: 2px;
+}
+.items-flex img{
+  width: 200px;
+  height: 200px;
+}
