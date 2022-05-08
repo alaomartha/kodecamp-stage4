@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/6b5a2b6ba2.js"
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/index.css">
   <title>Document</title>
 </head>
@@ -15,11 +17,13 @@
           <img src="img/logo.png" alt="A logo">
         </div>
         <div class="right-section">
-          <div class="navigation">
-            <ul>
+          <i class="fas fa-bars"></i>
+          <div class="navigation dropdown">
+            <span>Menu</span>
+            <ul class ="ul" >
               <li> <a href="#">Home</a></li>
               <li> <a href="#">About Us</a></li>
-              <li> <a href="#">Services</a></li>
+              <li> <a href="services.html">Services</a></li>
               <li> <a href="#">Blog</a></li>
               <li> <a href="#">Contacts</a></li>
             </ul>
@@ -166,17 +170,17 @@
           <h1>We offer full service auto repair <br> & maintenance </h1>
         </div>
         <div class="items-flex">  <!-- Another way to write this is to create 8 different divs and create a width of 100% and use hte normal flex stuff and give each a margin top and a margin bottom-->
-          <div class="items">
-            <img src="img/Item 1.png" alt="" class="items">
-            <img src="img/Item 2.png" alt="" class="items">
-            <img src="img/Item 3.png" alt="" class="items">
-            <img src="img/Item 4.png" alt="" class="items">
+          <div class="items brands">
+            <img src="img/Item 1.png" alt="" class="items brand">
+            <img src="img/Item 2.png" alt="" class="items brand">
+            <img src="img/Item 3.png" alt="" class="items brand1">
+            <img src="img/Item 4.png" alt="" class="items brand1">
           </div>
-          <div class="items">
-            <img src="img/Item 5.png" alt="" class="items">
-            <img src="img/Item 6.png" alt="" class="items">
-            <img src="img/Item 7.png" alt="" class="items">
-            <img src="img/Item 8.png" alt="" class="items">
+          <div class="items brands">
+            <img src="img/Item 5.png" alt="" class="items brand2">
+            <img src="img/Item 6.png" alt="" class="items brand2">
+            <img src="img/Item 7.png" alt="" class="items brand3">
+            <img src="img/Item 8.png" alt="" class="items brand3">
           </div>
         </div>
       </div>
@@ -189,13 +193,13 @@
     <div class="container">
       <div class="flex">
         <div class="image">
-          <img src="img/Image 1.png" alt="" width="400px" height="300px"> 
+          <img src="img/Image 1.png" alt="" width="400px" height="300px" id="img1"> 
           <!-- you can make the car width of 20% and make it flex and make the 2nd image a bg image and place the position in the left -->
           <div class="bg-text">
             <h1>Get in touch with us for your service related query</h1>
             <button>Contact Us</button>
           </div>
-          <img src="img/ovGrEUgrkyE.png" alt="" width="640px" height="300px">
+          <img src="img/ovGrEUgrkyE.png" alt="" width="700px" height="300px" id="img">
         </div>
       </div>
       <div class="numbers">
@@ -225,17 +229,17 @@
         <div class="final">
           <h1>Brands we Serve</h1>
           <div class="items-flex">
-            <div class="items">
-              <img src="img/logo-1 1 (1).png" alt="" class="items">
-              <img src="img/logo-1 1.png" alt="" class="items">
-              <img src="img/logo-3.png" alt="" class="items">
-              <img src="img/logo-6.png" alt="" class="items">
-            </div>
-            <div class="items">
-              <img src="img/logo-7 1 (1).png" alt="" class="items">
-              <img src="img/logo-7 1.png" alt="" class="items">
-              <img src="img/logo-8 1 (1).png" alt="" class="items">
-              <img src="img/logo-8 1.png" alt="" class="items">
+            <div class="items brands">
+              <img src="img/logo-1 1 (1).png" alt="" class="items brand">
+              <img src="img/logo-1 1.png" alt="" class="items brand">
+              <img src="img/logo-3.png" alt="" class="items brand1">
+              <img src="img/logo-6.png" alt="" class="items brand1">
+            </div> 
+            <div class="items brands">
+              <img src="img/logo-7 1 (1).png" alt="" class="items brand2">
+              <img src="img/logo-7 1.png" alt="" class="items brand2">
+              <img src="img/logo-8 1 (1).png" alt="" class="items brand3">
+              <img src="img/logo-8 1.png" alt="" class="items brand3">
             </div>
           </div>
         </div>
@@ -282,36 +286,68 @@
         </div>
       </div>
     </div>
+    <div class="arrow-image">
+      <a href="#">
+        <img src="img/arrows.png" alt="" id="arrow2"> <br>
+      </a>
+      <a href="#">
+        <img src="img/Arrow (1).png" alt="" id="arrow1">
+      </a>
+    </div>
   </section>
 <!-- questions section -->
 <section class="questions">
   <div class="container">
     <div class="flex">
       <div class="questions-text">
-        <h1>Frequently Asked Questions</h1>
+        <h1 class="asked">Frequently Asked Questions</h1>
         <div class="questions-section">
           <div class="section1">
             <div class="repair">
-              <h1>How long should a car repair take?</h1>
-              <p>I have got my car repaired at Finsweet many times before, they are good at what <br> they do. Not only did they repair my car I have got my car repaired at Finsweet I <br> have got my car repaired at Finsweet</p>
+              <div class="repair-texts">
+                <h1>How long should a car repair take?</h1>
+                <p>I have got my car repaired at Finsweet many times before, they are good at what <br> they do. Not only did they repair my car I have got my car repaired at Finsweet I <br> have got my car repaired at Finsweet</p>
+              </div>
+                
             </div> <br>
-            <div class="border">
-              <p></p>
-            </div>
+              <div class="border">
+                <img src="img/minus.png" alt="" >
+              </div>
           </div>
          <br>
+         <div class="other-sections">
           <div class="schedule">
+            <div class="border2">
+              <img src="img/Plus.png" alt="" >
+            </div>
             <h1>How do i schedule my car appointment?</h1>
           </div> <br>
-          <div class="schedule">
+         </div>
+          <div class="other-sections">
+            <div class="schedule">
+              <div class="border2">
+                <img src="img/Plus.png" alt="" >
+              </div> 
             <h1>What are the repair services provided?</h1>
-          </div> <br>
-          <div class="schedule">
-            <h1>How do I find auto body shops near me?</h1>
-          </div> <br>
-          <div class="schedule">
-            <h1>Genuine spare parts during car repair?</h1>
+            </div> <br>
           </div>
+          <div class="other-sections">
+            <div class="schedule">
+              <div class="border2">
+                <img src="img/Plus.png" alt="" >
+              </div>
+            <h1>How do i find autobody shops near to me?</h1>
+          </div> <br>
+          </div>
+          <div class="other-sections">
+            <div class="schedule">
+              <div class="border2">
+                <img src="img/Plus.png" alt="" >
+              </div> 
+            <h1>Genuine spare parts during car repair?</h1>
+            </div>
+          </div> <br>
+          
         </div>  
       </div>
     </div>
@@ -324,6 +360,13 @@
       <div class="contact-us">
         <div class="contact-text">
         <h1>Get in touch with us <br> for our service</h1>
+        <div class="font-awesome">
+          <a href="instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+  
         </div>
         <div class="help">
           <p>Help line Number</p> <br>
@@ -335,7 +378,29 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
 </footer>
+<section class="footer-nav-bar">
+  <div class="nav-bar">
+        <div class="navigation-section">
+          <div class="footer-navbar">
+            <ul class="ul-color">
+              <div class="logo">
+                <img src="img/Logo (1).png" alt="A logo">
+              </div>
+              <li> <a href="#">Home</a></li>
+              <li> <a href="#">About Us</a></li>
+              <li> <a href="#">Services</a></li>
+              <li> <a href="#">Blog</a></li>
+              <li> <a href="#">Contacts</a></li>
+              <div class="copy">
+                &copy;<p>Copyright M@ha2021</p>
+              </div> 
+            </ul>
+          </div>
+        </div>
+      </div>
+</section>
 </body>
 </html>
