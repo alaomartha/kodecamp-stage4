@@ -565,10 +565,10 @@ footer{
    flex-direction: row;
    flex-wrap: wrap;
   }
-  .items-flex .brand , .items-flex .brand1 , .items-flex .brand2 , .items-flex .brand3{
+  /* .items-flex .brand , .items-flex .brand1 , .items-flex .brand2 , .items-flex .brand3{
     flex: 1 1 0;
     min-width: 40%;
-  }
+  } */
   /* 7th section */
   .top-text .image-one .image-two{
     display: flex;

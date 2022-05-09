@@ -46,6 +46,9 @@
 .read-assistance .icon{
   margin-right: 10px;
 }
+.right-section i , span {
+  display: none;
+}
 /* .right-section i , span {
   display: none;
 } */
@@ -255,6 +258,13 @@ footer{
   }
   .bg-texts{
     width: 100%;
+  }
+  .right-section i{
+    display: contents;
+  }
+  span{
+    display: contents;
+    text-align: left;
   }
   /* section2 */
   .section2{
